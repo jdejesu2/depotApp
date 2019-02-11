@@ -5,3 +5,31 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Product.delete_all
+#...
+Product.create!(title: 'white',
+  description:
+    %{<p>
+      <em> good morning </em>
+      say good morning
+      </p>},
+  image_url: 'seal.jpg',
+  price: 26.00)
+  #...
+Product.create!(title: 'shiba',
+  description:
+    %{<p>
+      <em> batman </em>
+      shiba is batman
+      </p>},
+  image_url: 'shiba.jpg',
+  price: 126.00)
+
+Product.create!(title: 'dog',
+  description:
+    %{<p>
+      <em> good morning </em>
+      say good morning again
+      </p>},
+    image_url: 'hs.jpg',
+    price: 26.50)
