@@ -13,7 +13,7 @@ two:
   price: 9.99
 
 three:
-  title: MyString
-  description: MyText
+  title: say good morning
+  description: good morning
   image_url: hs.jpg
-  price: 9.99
+  price: 29.99
