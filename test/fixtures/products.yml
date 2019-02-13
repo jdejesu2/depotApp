@@ -1,19 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  description: MyText
+  title: white
+  description: good morning say good morning
   image_url: seal.jpg
-  price: 9.99
+  price: 26.00
 
 two:
-  title: MyString
-  description: MyText
+  title: shiba
+  description: batman shiba is batman
   image_url: shiba.jpg
-  price: 9.99
+  price: 126.00
 
 three:
-  title: say good morning
-  description: good morning
+  title: dog
+  description: good morning say good morning again
   image_url: hs.jpg
-  price: 29.99
+  price: 26.50
